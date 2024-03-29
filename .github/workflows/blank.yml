@@ -2,7 +2,7 @@ name: First Workflow        # Name of the job
 on: workflow_dispatch       # User manual starts the workflow 
 jobs:                       # Define jobs
   first-job:                # Name of the first job
-    runs-on: ubunt-latest   # Define OS to run
+    runs-on: windows-latest # Define OS to run
     steps:                  # Steps to run for a job
       - name: Print Hello   # Name of the step
         run: echo "Hello Aschaffenburg" 
